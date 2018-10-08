@@ -1,0 +1,36 @@
+.base, .important, .warning, .shadow {
+  font-family: 'sans-serif';
+  font-size: 24px;
+  color: black;
+  font-weight: bold;
+  margin-left: 50px;
+  margin-top: 5px;
+  width: 150px;
+  height: 100px;
+  border: 2px solid grey;
+  text-align: center;
+  border-radius: 10px; }
+
+.base {
+  background-color: blue; }
+
+.important {
+  background-color: #000066; }
+
+.warning {
+  background-color: #9999ff; }
+
+.pFont {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  margin-left: 50px;
+  margin-top: 5px; }
+
+.sFont {
+  font-family: fantasy;
+  font-size: 24px;
+  margin-left: 50px;
+  margin-top: 5px; }
+
+.shadow {
+  box-shadow: 16px 12px 23px #666; }

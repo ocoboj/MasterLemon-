@@ -1,0 +1,37 @@
+.base, .important, .warning, .shadow {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 24px;
+  color: black;
+  font-weight: bold;
+  margin-left: 50px;
+  margin-top: 5px;
+  width: 150px;
+  height: 100px;
+  border: 2px solid grey;
+  text-align: center; }
+
+.base {
+  background-color: red; }
+
+.important {
+  background-color: #660000; }
+
+.warning {
+  background-color: #ffcccc; }
+
+.pFont {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 24px;
+  margin-left: 50px;
+  margin-top: 5px; }
+
+.sFont {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+  margin-left: 50px;
+  margin-top: 5px;
+  font-weight: bold; }
+
+.shadow {
+  box-shadow: -10px 11px 11px #666;
+  /* Sombra normal */ }

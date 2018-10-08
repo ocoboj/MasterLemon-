@@ -1,0 +1,51 @@
+$colorBase:blue;
+$colorFont: black;
+$fuente: 24px;
+$negrita: bold;
+$margenil:50px;
+$margenT:5px;
+$ancho:150px;
+$alto:100px;
+$borde:2px solid grey;
+
+
+.base, .important, .warning, .shadow{
+    font-family: 'sans-serif';
+    font-size: $fuente;
+    color:$colorFont;
+    font-weight: $negrita;
+    margin-left: $margenil;
+    margin-top: $margenT;
+    width: $ancho;
+    height: $alto; 
+    border: $borde;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+.base{
+    background-color: $colorBase;
+}
+.important{
+    background-color: darken($color: $colorBase, $amount: 30%)
+}
+.warning{
+    background-color: lighten($color: $colorBase, $amount: 30%)
+}
+.pFont{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: $fuente;
+    margin-left: $margenil;
+    margin-top: $margenT;
+ 
+}
+.sFont{
+    font-family: fantasy;
+    font-size: $fuente;
+    margin-left: $margenil;
+    margin-top: $margenT;
+
+}
+.shadow{
+    box-shadow: 16px 12px 23px #666;
+}
