@@ -1,0 +1,46 @@
+$baseColor: rgb(240, 34, 48);
+
+body{
+  font-family: sans-serif;
+  color:white;
+}
+
+div.flex-container{
+  margin: 0;
+  padding: 0;
+}
+
+.flex-container div{
+  height: 50px;
+  padding-top: 45px;
+  font-size: 1.8em;
+  text-align:center;
+}
+
+.darken4{
+  background: darken($color: $baseColor, $amount: 50%)
+}
+.darken3{
+  background: darken($color: $baseColor, $amount: 40%)
+}
+.darken2{
+  background: darken($color: $baseColor, $amount: 30%)
+}
+.darken1{
+  background: darken($color: $baseColor, $amount: 20%)
+}
+.baseColor{
+background: $baseColor;
+}
+.lighten1{
+  background: lighten($color: $baseColor, $amount: 10%)
+}
+.lighten2{
+  background: lighten($color: $baseColor, $amount: 20%)
+}
+.lighten3{
+  background: lighten($color: $baseColor, $amount: 30%)
+}
+.lighten4{
+  background: lighten($color: $baseColor, $amount: 40%)
+}
