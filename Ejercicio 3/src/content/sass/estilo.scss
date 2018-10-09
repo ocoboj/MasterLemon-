@@ -2,32 +2,33 @@
 .header-container{
     display: flex;
     flex-direction: column;
-    .logo{
-        display: -webkit-inline-flex;
-        background: pink;
-        font-size: 25px;
-        justify-content: space-between;  
+        .logo{
+            display: -webkit-inline-flex;
+            background: pink;
+            font-size: 25px;
+            justify-content: space-between;  
+            
         
-       
-       
-    }
+        
+        }
    
 .menu-container{
     display: inline-block;
     border: 1px solid grey;  
     border-bottom: 1px solid grey;
     box-shadow: 0 1px 1px 0px grey;
+    border-right: 2px solid grey;
     
    
         nav ul li{
         display: inline-block;
         color:black;
         margin-left: 96px;
-        
-        
-        }
+        position: static;
+       }
+       
        nav ul li a:hover{
-        background-color: goldenrod;
+        background-color: grey;
         
        }
     }
@@ -35,33 +36,38 @@
 }
    //media queries
    @media screen and (max-width: 450px) {
-     .header-container{
-        .logo{
-           // background: aquamarine;
-            .titulo{
-                display:none;
-            }   
-        }
-        .menu-container{
-            display: inline-block;
-            border: 1px solid grey;  
-            border-bottom: 1px solid grey;
-            box-shadow: 0 1px 1px 0px grey;
-            margin-top: 80px;
-            position: fixed;
-            bottom: 10px;
-            width: 100%
+    .header-container{
+        display: flex;
+    flex-direction: column;
+       .logo{
+          // background: aquamarine;
+           .titulo{
+               display:none;
+           }   
+       }
+       .menu-container{
+           display: inline-block;
+           border: 1px solid grey;  
+           border-bottom: 1px solid grey;
+           box-shadow: 0 1px 1px 0px grey;
+           margin-top: 80px;
+           position: fixed;
+           bottom: 10px;
            
-                nav ul li{
-                color:black;
-              
-                }
-               nav ul li a:hover{
-                background-color: goldenrod;
-                
+          
+               nav ul li{
+               color:black;
+               margin-left:5px;
+               font-size: 12px;
+               display: inline-block;
+             
                }
-            }
-    }
-   
-      
+              nav ul li a:hover{
+               background-color: goldenrod;
+               
+              }
+           }
    }
+  
+     
+  }
