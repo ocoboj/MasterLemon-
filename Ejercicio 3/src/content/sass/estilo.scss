@@ -22,6 +22,7 @@
         nav ul li{
         display: inline-block;
         color:black;
+    
         
         }
        nav ul li a:hover{
@@ -32,7 +33,7 @@
   
 }
    //media queries
-   @media screen and (max-width: 350px) {
+   @media screen and (max-width: 450px) {
      .header-container{
         .logo{
            // background: aquamarine;
@@ -46,10 +47,11 @@
             border-bottom: 1px solid grey;
             box-shadow: 0 1px 1px 0px grey;
             margin-top: 80px;
-            
+            position: fixed;
+            bottom: 10px;
+            width: 100%
            
                 nav ul li{
-                display: inline-block;
                 color:black;
               
                 }
