@@ -1,0 +1,27 @@
+body{
+    margin:0;
+    padding: 0;
+}
+
+.flex-container{
+    display: flex;
+    height: 100%;
+    //hacer cambio de linea
+    flex-wrap: wrap; 
+    //agrupar imagenes al principio del eje
+    align-content: flex-start; 
+    background: yellowgreen;
+    //formato imagenes
+    div{
+        max-width: 400px;
+        margin:auto;
+
+        img{
+            width: 100%;
+            height: 300px;
+            margin: 5px;
+            padding: 5px;
+            border: 2px double goldenrod;
+        }
+    }
+}
