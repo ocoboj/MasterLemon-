@@ -5,10 +5,11 @@
 
 function biggestWord(frase) {
     // Implementation here
-    //variable donde guardaremos la palabra más larga
+    //variable donde guardaremos la palabra que se encuentre más larga
     var largoLetra=""; 
     //con split dividimos una cadena en subcadena y con length medimos la cantidad de letras que tiene la palabra
     frase.split(" ").forEach((palabra)=> {
+        //comprobamos que palabra contine mas letras y la guardamos en la variable creada anteriormente
         if(palabra.length > largoLetra.length){
             largoLetra = palabra;
         }
