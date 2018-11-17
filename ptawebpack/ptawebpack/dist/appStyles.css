@@ -1,0 +1,11 @@
+/*$blue: "blue";
+$negrita: "bold";
+
+.estilo{
+    color: $blue;
+    font-weight: $negrita
+}*/
+
+.estilo{
+    background-color: indianred;
+}
