@@ -6,15 +6,24 @@ var path = require('path');
 var basePath = __dirname;
 
 module.exports = {
+    context: path.join(basePath, 'src'),
+    resolve: {
+        extensions: ['.js', '.ts']
+    },
     entry: {
-        app: './students.js',
+        app: './students.ts',
         appStyles: [
             './mystyles.scss',
         ],
         vendor: [
             'jquery',
         ],
+        vendorStyles: [
+
+            '../node_modules/bootstrap/dist/css/bootstrap.css',
+        ],
     },
+    devtool: 'inline-source-map',
     output: {
         filename: '[name].[chunkhash].js',
     },
@@ -35,6 +44,15 @@ module.exports = {
 
     module: {
         rules: [
+            {
+                test: /\.(ts|tsx)$/,
+                exclude: /node_modules/,
+                loader: 'awesome-typescript-loader',
+                options: {
+                    useBabel: true,
+                    "babelCore": "@babel/core", // needed for Babel v7 v7
+                },
+            },
             {
                 test: /\.js$/,
                 exclude: /node_modules/,
