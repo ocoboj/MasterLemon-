@@ -1,13 +1,25 @@
-$blue: blue;
+$blue: orange;
 
 
 .estilo{
     color: $blue;
     font-weight: bold;
+    text-align: center;
+    background: green;
     
 
 }
 
-/*.estilo{
-    background-color: indianred;
-}*/
+img{
+    display:block;
+    width: 400px;
+    margin: auto;
+    
+}
+
+imgDibu{
+    display:block;
+    height: 800px;
+    margin: auto;
+}
+

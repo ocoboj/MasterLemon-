@@ -7,3 +7,19 @@ const averageScore: number = getAvg(scores);
 const messageToDisplay: string = `average score ${averageScore}`;
 
 document.write(messageToDisplay);*/
+
+import logoImg from './content/dibujo.jpg';
+
+
+
+const img = document.createElement('img');
+
+
+
+img.src = logoImg;
+
+
+
+document.getElementById('imgContainer').appendChild(img);
+
+
