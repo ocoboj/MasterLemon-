@@ -8,7 +8,7 @@ const messageToDisplay: string = `average score ${averageScore}`;
 
 document.write(messageToDisplay);*/
 
-import logoImg from './content/dibujo.jpg';
+const  logoImg = require('./content/dibujo.jpg');
 
 
 
