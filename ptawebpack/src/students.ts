@@ -10,16 +10,20 @@ document.write(messageToDisplay);*/
 
 const  logoImg = require('./content/dibujo.jpg');
 
+const  logoImga = require('./content/dibu.jpg');
 
 
 const img = document.createElement('img');
+const imga = document.createElement('img');
 
 
 
 img.src = logoImg;
+imga.src = logoImga;
 
 
 
 document.getElementById('imgContainer').appendChild(img);
+document.getElementById('imgDibu').appendChild(imga);
 
 
