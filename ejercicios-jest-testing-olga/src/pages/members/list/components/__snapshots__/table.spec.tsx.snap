@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/members/list/components/table spec should render as expected when passing one item 1`] = `
+<Component
+  members={
+    Array [
+      Object {
+        "avatarUrl": "url test 8",
+        "id": 8,
+        "name": "name test 8",
+      },
+    ]
+  }
+  title="Testing Header"
+>
+  <table
+    className="table table-striped"
+  >
+    <Component>
+      <thead>
+        <tr>
+          <th>
+            Avatar
+          </th>
+          <th>
+            Id
+          </th>
+          <th>
+            Name
+          </th>
+        </tr>
+      </thead>
+    </Component>
+    <Component
+      members={
+        Array [
+          Object {
+            "avatarUrl": "url test 8",
+            "id": 8,
+            "name": "name test 8",
+          },
+        ]
+      }
+    >
+      <tbody>
+        <Component
+          key="8"
+          member={
+            Object {
+              "avatarUrl": "url test 8",
+              "id": 8,
+              "name": "name test 8",
+            }
+          }
+        >
+          <tr>
+            <td>
+              <img
+                src="url test 8"
+                style={
+                  Object {
+                    "maxWidth": "10rem",
+                  }
+                }
+              />
+            </td>
+            <td>
+              <span>
+                8
+              </span>
+            </td>
+            <td>
+              <span>
+                name test 8
+              </span>
+            </td>
+          </tr>
+        </Component>
+      </tbody>
+    </Component>
+  </table>
+</Component>
+`;

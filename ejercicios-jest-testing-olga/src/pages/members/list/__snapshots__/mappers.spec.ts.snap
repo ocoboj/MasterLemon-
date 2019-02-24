@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/members/list/mappers specs mapMemberListModelToVm should return array when members are equals undefined 1`] = `Array []`;
+
+exports[`pages/members/list/mappers specs mapMemberListModelToVm should return empty array when passing members equals [] 1`] = `Array []`;
+
+exports[`pages/members/list/mappers specs should return array with 3 items when passing members equals array 1`] = `
+Array [
+  Object {
+    "avatarUrl": "test avatar 6",
+    "id": 6,
+    "name": "test login 6",
+  },
+  Object {
+    "avatarUrl": "test avatar 8",
+    "id": 8,
+    "name": "test login 8",
+  },
+  Object {
+    "avatarUrl": "test avatar 10",
+    "id": 10,
+    "name": "test login 10",
+  },
+]
+`;
+
+exports[`pages/members/list/mappers specs should return array with item when passing memebers if equals array with item 1`] = `
+Array [
+  Object {
+    "avatarUrl": "test avatar",
+    "id": 3,
+    "name": "test login",
+  },
+]
+`;
+
+exports[`pages/members/list/mappers specs should return empty array when passing members equal null 1`] = `Array []`;

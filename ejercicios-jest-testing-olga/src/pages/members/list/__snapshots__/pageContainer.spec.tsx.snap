@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/members/list/pageContainer spec should call to fetchMember action when render component 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": Object {
+        "type": "test action type",
+      },
+    },
+  ],
+}
+`;
+
+exports[`pages/members/list/pageContainer spec should call to mapMemebersListModelToVM when render component 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Array [
+        Object {
+          "avatar_url": "test avatar_url 2",
+          "id": 2,
+          "login": "test login 2",
+        },
+      ],
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": Array [
+        Object {
+          "avatarUrl": "test avatar_url 3",
+          "id": 3,
+          "name": "test login 3",
+        },
+      ],
+    },
+  ],
+}
+`;
+
+exports[`pages/members/list/pageContainer spec should render when passing of the sate 1`] = `
+<PageContainer
+  fetchMembers={[Function]}
+  members={
+    Array [
+      Object {
+        "avatarUrl": "test avatar_url 6",
+        "id": 6,
+        "name": "test login 6",
+      },
+    ]
+  }
+/>
+`;

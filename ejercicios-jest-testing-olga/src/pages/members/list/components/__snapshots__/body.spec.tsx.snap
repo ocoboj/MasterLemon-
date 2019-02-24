@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/members/list/components/body specs should render as expected when passing more than one item  1`] = `
+<Component
+  members={
+    Array [
+      Object {
+        "avatarUrl": "url test 6",
+        "id": 6,
+        "name": "name test 6",
+      },
+      Object {
+        "avatarUrl": "url test 8",
+        "id": 8,
+        "name": "name test 8",
+      },
+    ]
+  }
+>
+  <tbody>
+    <Component
+      key="6"
+      member={
+        Object {
+          "avatarUrl": "url test 6",
+          "id": 6,
+          "name": "name test 6",
+        }
+      }
+    >
+      <tr>
+        <td>
+          <img
+            src="url test 6"
+            style={
+              Object {
+                "maxWidth": "10rem",
+              }
+            }
+          />
+        </td>
+        <td>
+          <span>
+            6
+          </span>
+        </td>
+        <td>
+          <span>
+            name test 6
+          </span>
+        </td>
+      </tr>
+    </Component>
+    <Component
+      key="8"
+      member={
+        Object {
+          "avatarUrl": "url test 8",
+          "id": 8,
+          "name": "name test 8",
+        }
+      }
+    >
+      <tr>
+        <td>
+          <img
+            src="url test 8"
+            style={
+              Object {
+                "maxWidth": "10rem",
+              }
+            }
+          />
+        </td>
+        <td>
+          <span>
+            8
+          </span>
+        </td>
+        <td>
+          <span>
+            name test 8
+          </span>
+        </td>
+      </tr>
+    </Component>
+  </tbody>
+</Component>
+`;
+
+exports[`pages/members/list/components/body specs should render as expected when passing one item 1`] = `
+<Component
+  members={
+    Array [
+      Object {
+        "avatarUrl": "url test",
+        "id": 5,
+        "name": "name test",
+      },
+    ]
+  }
+>
+  <tbody>
+    <Component
+      key="5"
+      member={
+        Object {
+          "avatarUrl": "url test",
+          "id": 5,
+          "name": "name test",
+        }
+      }
+    >
+      <tr>
+        <td>
+          <img
+            src="url test"
+            style={
+              Object {
+                "maxWidth": "10rem",
+              }
+            }
+          />
+        </td>
+        <td>
+          <span>
+            5
+          </span>
+        </td>
+        <td>
+          <span>
+            name test
+          </span>
+        </td>
+      </tr>
+    </Component>
+  </tbody>
+</Component>
+`;

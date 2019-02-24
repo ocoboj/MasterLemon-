@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`members/list/actions/fetchMembers specs should call to apiMember 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": Promise {},
+    },
+  ],
+}
+`;
+
+exports[`members/list/actions/fetchMembers specs should dispatch action UPDATE_MEMBERS and payload with members 1`] = `"UPDATE_MEMBERS"`;
+
+exports[`members/list/actions/fetchMembers specs should dispatch action UPDATE_MEMBERS and payload with members 2`] = `
+Array [
+  Object {
+    "avatar_url": "test url",
+    "id": 1,
+    "login": "test login",
+  },
+]
+`;

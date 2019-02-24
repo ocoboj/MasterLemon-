@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/members/list/reducers/members spec should return same state when passing a state and some action type 1`] = `
+Array [
+  Object {
+    "avatar_url": "test avatar_url 5",
+    "id": 5,
+    "login": "test login 5",
+  },
+]
+`;
+
+exports[`pages/members/list/reducers/members spec should return update when passing state, members payload and UPDATE_MEMBERS 1`] = `
+Array [
+  Object {
+    "avatar_url": "test avatar_url 9",
+    "id": 9,
+    "login": "test login 9",
+  },
+]
+`;
